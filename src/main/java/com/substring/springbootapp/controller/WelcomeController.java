@@ -11,6 +11,6 @@ public class WelcomeController {
 
     @GetMapping
     public ResponseEntity<String> welcome(){
-        return ResponseEntity.ok("Welcome to spring boot 2026!");
+        return ResponseEntity.ok("Sai keep practcing for Job and Apply for job🎉");
     }
 }
