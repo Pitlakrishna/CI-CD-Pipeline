@@ -9,7 +9,7 @@ env:
 
 jobs:
   build-deploy:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Source
@@ -22,7 +22,7 @@ jobs:
           java-version: 21
           cache: maven
 
-      - name: Buil jar
+      - name: Build jar
         run: mvn clean package -DskipTests
 
       - name: Building Docker Image
